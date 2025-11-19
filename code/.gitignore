@@ -56,3 +56,4 @@ coverage/
 dist/
 *.tgz
 .eslintcache
+# parcel-bundler-cache/
