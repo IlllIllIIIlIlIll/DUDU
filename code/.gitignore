@@ -1,0 +1,58 @@
+# Node
+node_modules/
+.pnp/
+.pnp.js
+pnpm-lock.yaml # keep or remove depending on policy; typically committed — uncomment if you want to ignore
+npm-debug.log*
+pnpm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Next.js / build outputs
+.next/
+.next/** 
+.out/
+out/
+build/
+.next/cache/
+.vercel/
+.vercel_build_output/
+
+# Environment files (do NOT ignore .env.example)
+.env
+.env.local
+.env.*.local
+
+# TypeScript
+*.tsbuildinfo
+
+# Logs and temp
+logs/
+*.log
+*.tmp
+tmp/
+temp/
+
+# Editor/IDE
+.vscode/
+.idea/
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.iml
+
+# OS files
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Testing / coverage
+coverage/
+.nyc_output/
+
+# Misc
+.cache/
+dist/
+*.tgz
+.eslintcache
