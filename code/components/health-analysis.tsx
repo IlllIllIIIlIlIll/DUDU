@@ -11,28 +11,22 @@ interface HealthAnalysisProps {
 export function HealthAnalysis({ metrics }: HealthAnalysisProps) {
   const screeningResults = [
     {
-      title: "Vital Signs Assessment",
+      title: "Pemeriksaan Tanda Vital",
       status: "normal",
       description: "Semua tanda vital normal",
       icon: "✓",
     },
     {
-      title: "Growth Monitoring",
+      title: "Kesesuaian Tumbuh Kembang",
       status: "good",
       description: "Pertumbuhan sesuai kurva",
-      icon: "⭐",
-    },
-    {
-      title: "Physical Activity",
-      status: "good",
-      description: "Aktivitas fisik optimal",
       icon: "⭐",
     },
   ]
 
   return (
     <div>
-      <h2 className="text-lg font-bold text-[#343a40] mb-3 sm:text-lg">Health Analysis</h2>
+      <h2 className="text-lg font-bold text-[#343a40] mb-3 sm:text-lg">Analisis Kesehatan</h2>
       <Card className="border-1 border-gray-200 bg-white shadow-sm p-4 sm:p-4">
         <div className="space-y-3">
           {screeningResults.map((result, idx) => (

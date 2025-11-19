@@ -7,8 +7,8 @@ const _geist = Geist({ subsets: ["latin"] })
 const _geistMono = Geist_Mono({ subsets: ["latin"] })
 
 export const metadata: Metadata = {
-  title: "Child Health Dashboard",
-  description: "Monitor your child's health in real-time",
+  title: "Dudu",
+  description: "Pantau tumbuh kembang sang buah hati",
   generator: "v0.app",
   viewport: {
     width: "device-width",

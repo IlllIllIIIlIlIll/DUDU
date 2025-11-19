@@ -29,8 +29,8 @@ export function ChildProfile() {
               👧
             </div>
             <div className="flex-1 min-w-0">
-              <h2 className="text-lg font-bold truncate sm:text-xl">Olivia Haliza</h2>
-              <p className="text-sm text-blue-100 truncate sm:text-sm">Age: 4 years old | ID: CHD-2025-0421</p>
+              <h2 className="text-lg font-bold truncate sm:text-xl">Abil Apriliyanti</h2>
+              <p className="text-sm text-blue-100 truncate sm:text-sm">Usia: 3 Tahun 2 Bulan</p>
               <div className="mt-2">
                 <span className="text-xs opacity-75">Status Terakhir:</span>
                 <p className="font-semibold text-white bg-[#28a745] px-2 py-1 rounded inline-block text-xs mt-1">

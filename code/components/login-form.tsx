@@ -31,14 +31,14 @@ export function LoginForm({ onLogin }: LoginFormProps) {
       <Card className="w-full max-w-md border-0 shadow-lg">
         <div className="p-8 space-y-6">
           <div className="space-y-2">
-            <h1 className="text-3xl font-bold text-gray-900 text-balance">Child Health Dashboard</h1>
-            <p className="text-gray-600">Monitor your child's health in real-time</p>
+            <h1 className="text-3xl font-bold text-gray-900 text-balance">Dudu</h1>
+            <p className="text-gray-600">Pantau tumbuh kembang sang buah hati</p>
           </div>
 
           <form onSubmit={handleSubmit} className="space-y-4">
             <div className="space-y-2">
               <label htmlFor="email" className="block text-sm font-medium text-gray-700">
-                Email Address
+                Alamat Email
               </label>
               <input
                 id="email"
@@ -74,7 +74,7 @@ export function LoginForm({ onLogin }: LoginFormProps) {
           </form>
 
           <div className="pt-4 border-t border-gray-200">
-            <p className="text-sm text-gray-600 text-center">Demo credentials: any email/password</p>
+            <p className="text-sm text-gray-600 text-center">Daftarkan akun ibu pada fasilitas kesehatan terdekat</p>
           </div>
         </div>
       </Card>

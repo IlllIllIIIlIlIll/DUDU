@@ -54,7 +54,7 @@ export function Dashboard({ onLogout }: DashboardProps) {
 
         {/* Real-time Measurements - Changed to 2x2 grid layout for compact design */}
         <div>
-          <h2 className="text-lg font-bold text-[#343a40] mb-3 sm:text-lg">Real-time Measurements</h2>
+          <h2 className="text-lg font-bold text-[#343a40] mb-3 sm:text-lg">Pengukuran Terkini</h2>
           <div className="grid grid-cols-2 gap-2 sm:gap-3">
             <HealthMetric
               label="Suhu Tubuh"
